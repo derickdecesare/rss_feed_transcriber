@@ -37,6 +37,8 @@ source spanish_env/bin/activate  # On Windows: spanish_env\Scripts\activate
 pip install openai-whisper requests
 ```
 
+**Note:** When you first run the script, Whisper will automatically download the model files (several hundred MB). This happens only once, but the first run may take longer because of this download.
+
 ## Usage
 
 Run the script to fetch and transcribe the latest episode:
